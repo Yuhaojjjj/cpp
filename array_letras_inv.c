@@ -7,8 +7,9 @@ int main() {
 	for (i = 3; i >= 0; i--) {
 		scanf("%c", &string[i]);
 	}
-	for (j = 0; j < 4; j++) {
-		printf(" %c ", string[j]);
+	for (j = 0; j < 4; i++) {
+		printf(" %c ", string[i]);
 	}
 	return 0;
 }
+
